@@ -20,12 +20,12 @@ select isim, soyisim, not_ort from ogrenciler;
 
 --DML - Data manipulation lang
 -- insert - data base e veri ekleme
-insert into ogrenciler values ('1234567', 'Said', 'Ilhan', 84.5, now());
-insert into ogrenciler values ('1234567', 'Said', 'Ilhan', 84.5, '2022-12-03');
+insert into ogrenciler values ('1234567', 'John', 'Doe', 84.5, now());
+insert into ogrenciler values ('1234567', 'John', 'Doe', 84.5, '2022-12-03');
 
 --bir tabloya parcali veri eklemek
 
-insert into ogrenciler (isim, soyisim) values ('Erol', 'Evren');
+insert into ogrenciler (isim, soyisim) values ('Emin', 'Eren');
 
 --DQL - data query lang
 --select
